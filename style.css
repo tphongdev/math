@@ -1,0 +1,68 @@
+body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #e0f2ff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 3px solid #cce7ff;
+    }
+    header nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .container {
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      color: #1e3a8a;
+      font-size: 36px;
+    }
+    .equation {
+      font-size: 40px;
+      margin: 20px;
+    }
+    input[type="number"] {
+      width: 60px;
+      font-size: 28px;
+      text-align: center;
+      border: 2px solid #1e3a8a;
+      border-radius: 8px;
+      margin-left: 10px;
+    }
+    button {
+      background-color: #f97316;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 30px;
+      font-size: 20px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .characters {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px;
+    }
+    .character img {
+      width: 150px;
+      height: auto;
+    }
+    @media (max-width: 576px) {
+    .auth-box {
+        padding: 30px 20px;
+    }
+
+    .auth-social {
+        grid-template-columns: 1fr;
+    }
+}
